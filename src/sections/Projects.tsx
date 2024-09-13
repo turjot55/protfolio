@@ -1,5 +1,5 @@
 import darkSaasLandingPage from "@/assets/images/turja3.png";
-import lightSaasLandingPage from "@/assets/images/turja2.png";
+import lightSaasLandingPage from "@/assets/images/turja4.png";
 import aiStartupLandingPage from "@/assets/images/turja1.png";
 import Image from "next/image";
 import CheckCirclekIcon from "@/assets/icons/check-circle.svg";
@@ -23,15 +23,16 @@ const portfolioProjects = [
     id: 1,
   },
   {
-    company: "Helvet Finance",
-    year: "2024",
-    title: "Worked as full-stack developer with other wonderful develoer teams",
+    company: "Waldur",
+    year: "2023",
+    title:
+      "Conducted automated testing for the Waldur website using Cypress, ensuring optimal performance and functionality",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://www.helvetfinance.ch/en",
+    link: "https://waldur.com/",
     image: lightSaasLandingPage,
     id: 2,
   },
