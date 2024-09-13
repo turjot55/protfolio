@@ -20,6 +20,7 @@ const portfolioProjects = [
     ],
     link: "https://fetchai.foundation/",
     image: darkSaasLandingPage,
+    id: 1,
   },
   {
     company: "Helvet Finance",
@@ -32,6 +33,7 @@ const portfolioProjects = [
     ],
     link: "https://www.helvetfinance.ch/en",
     image: lightSaasLandingPage,
+    id: 2,
   },
   {
     company: "Calender Application",
@@ -44,6 +46,7 @@ const portfolioProjects = [
     ],
     link: "https://calenderapplication.netlify.app/",
     image: aiStartupLandingPage,
+    id: 3,
   },
 ];
 
@@ -60,7 +63,7 @@ export const ProjectsSection = () => {
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, index) => (
             <Card
-              key={project.title}
+              key={project.id}
               className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky "
               style={{
                 top: `calc(64px + ${index * 50}px)`,
