@@ -136,7 +136,7 @@ export const HeroSection = () => {
               <h1 className="font-serif text-3xl text-center mt-8 tracing-wide md:text-5xl">
                 Building Exceptional User Experience
               </h1>
-              <p className="mt-4 text-center text-whte/60 md:text-lg">
+              <p className="mt-4 text-center text-white/60 md:text-lg">
                 I have had the privilege of working on various projects,
                 including frontend development using React.js, backend
                 development with Java Spring Boot, and the implementation of
@@ -150,7 +150,7 @@ export const HeroSection = () => {
               </button>
               <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 rounded-xl px-6">
                 <span>👋</span>
-                <span className="font-semibold">Let's Connect</span>
+                <span className="font-semibold">Let&apos;s Connect</span>
               </button>
             </div>
           </div>
