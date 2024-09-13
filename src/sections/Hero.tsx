@@ -149,8 +149,10 @@ export const HeroSection = () => {
                 <ArrowDown className="size-4" />
               </button>
               <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 rounded-xl px-6">
-                <span>👋</span>
-                <span className="font-semibold">Let&apos;s Connect</span>
+                <a href="mailto:turjo_t@yahoo.com?subject=Contact&body=Hello%20Turjo,%0D%0A">
+                  <span>👋</span>
+                  <span className="font-semibold">Let&apos;s Connect</span>
+                </a>
               </button>
             </div>
           </div>
