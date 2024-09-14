@@ -9,13 +9,13 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
 
 export const HeroSection = () => {
-  const handleMailTo = () => {
-    window.location.href =
-      "mailto:turjo_t@yahoo.com?subject=Contact&body=Hello%20Turjo,%0D%0A";
-  };
+  // const handleMailTo = () => {
+  //   window.location.href =
+  //     "mailto:turjo_t@yahoo.com?subject=Contact&body=Hello%20Turjo,%0D%0A";
+  // };
   return (
     <section id="home">
-      <div className="py-32 md:py-48 lg:py-60 relative z-20 overflow-x-visible">
+      <div className="py-32 md:py-48 lg:py-60 relative z-1 overflow-x-visible">
         <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom, transparent, black_10%, black_70%, transparent)]">
           <div
             className="absolute inset-0 -z-30 opacity-5"
@@ -145,7 +145,7 @@ export const HeroSection = () => {
                 authentication modules using Node.js and MongoDB.
               </p>
             </div>
-            <div className="flex flex-col  items-center md:flex-row justify-center mt-8 gap-4 z-10">
+            <div className="flex flex-col  items-center md:flex-row justify-center mt-8 gap-4 z-0">
               <button
                 className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
                 id="projects">
