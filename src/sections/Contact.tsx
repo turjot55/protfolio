@@ -1,20 +1,18 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
-import StarIcon from "@/assets/icons/star.svg";
-import Image from "next/image";
 
 export const ContactSection = () => {
   return (
     <section id="contact">
       <div className="py-16 pt-12 lg:py-24 lg:pt-20">
         <div className="container">
-          <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left relative overflow-hidden z-0">
+          <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10 rounded-3xl text-center md:text-left relative overflow-hidden z-10">
             <div
               className="absolute inset-0 opacity-5 -z-10"
               style={{
                 backgroundImage: `url(${grainImage.src})`,
               }}></div>
-            <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+            <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center z-10">
               <div>
                 <h2 className="font-serif text-2xl md:text-3xl">
                   Let&apos;s create something amazing together
@@ -30,7 +28,6 @@ export const ContactSection = () => {
                   <a href="mailto:turjo_t@yahoo.com?subject=Contact&body=Hello%20Turjo,%0D%0A">
                     <span className="font-semibold">Contact Me</span>
                   </a>
-
                   <ArrowUpRightIcon className="size-4" />
                 </button>
               </div>
