@@ -8,38 +8,40 @@ import Image from "next/image";
 import grainImage from "@/assets/images/grain.jpg";
 import { Card } from "@/components/Card";
 import { Fragment } from "react";
+import terryReview from "@/assets/images/review1.jpeg"
 
 const testimonials = [
   {
-    name: "Turjo Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Turjo was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Client from Fiverr",
+    position: "terrypattinson's message",
+    text: "Turjo did an OUTSTANDING job web scraping and converting files with impeccable attention to detail and professionalism. Working with him was a breeze, as he not only demonstrated a deep understanding but also went ABOVE AND BEYOND with his quick responsiveness. Highly recommend his services! 🙌",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Turjo was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Client from Fiverr",
+    position: "fiona_eurofins's message",
+    text: "I am a repeated customer and it's smooth working with Turjo.",
+    avatar: memojiAvatar1,
+  },
+  {
+    name: "Client from Fiverr",
+    position: "bpijanow23's message",
+    text: "Professional and timely responses. Prioritized getting my project done. Delivered a great product.",
     avatar: memojiAvatar2,
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Turjo's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "Client from Fiverr",
+    position: "missmiri1's message",
+    text: "Turjo is great!! He provides thoughtful and efficient work… will use service again !",
     avatar: memojiAvatar3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Turjo is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Client from Fiverr",
+    position: "piercedempsey's message",
+    text: "his was such a seamless experience. He understood what I was wanting and did it faster than I ever could have imagined. He asked questions on the front end to make sure the delivery was done right. The order was perfect on the first delivery!",
     avatar: memojiAvatar4,
   },
-  {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Turjo's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
-  },
+  
 ];
 
 export const TestimonialsSection = () => {

@@ -1,12 +1,15 @@
 import darkSaasLandingPage from "@/assets/images/turja3.png";
 import lightSaasLandingPage from "@/assets/images/turja4.png";
 import aiStartupLandingPage from "@/assets/images/turja1.png";
+import moneyManagement from "@/assets/images/money.jpeg";
 import Image from "next/image";
 import CheckCirclekIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
+
+
 
 const portfolioProjects = [
   {
@@ -48,6 +51,19 @@ const portfolioProjects = [
     link: "https://calenderapplication.netlify.app/",
     image: aiStartupLandingPage,
     id: 3,
+  },
+  {
+    company: "Money Management Tool",
+    year: "2025",
+    title: "Money Management Tool Using react, node and for auth JWT",
+    results: [
+      { title: "Enhanced user experience by 40%" },
+      { title: "Improved site speed by 50%" },
+      { title: "Increased mobile traffic by 35%" },
+    ],
+    link: "https://moneymanagertooltest.netlify.app/",
+    image: moneyManagement,
+    id: 4,
   },
 ];
 
