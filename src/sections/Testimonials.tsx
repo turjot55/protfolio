@@ -21,25 +21,25 @@ const testimonials = [
     name: "Client from Fiverr",
     position: "fiona_eurofins's message",
     text: "I am a repeated customer and it's smooth working with Turjo.",
-    avatar: memojiAvatar1,
+    avatar: memojiAvatar2,
   },
   {
     name: "Client from Fiverr",
     position: "bpijanow23's message",
     text: "Professional and timely responses. Prioritized getting my project done. Delivered a great product.",
-    avatar: memojiAvatar2,
+    avatar: memojiAvatar5,
   },
   {
     name: "Client from Fiverr",
     position: "missmiri1's message",
     text: "Turjo is great!! He provides thoughtful and efficient work… will use service again !",
-    avatar: memojiAvatar3,
+    avatar: memojiAvatar4,
   },
   {
     name: "Client from Fiverr",
     position: "piercedempsey's message",
-    text: "his was such a seamless experience. He understood what I was wanting and did it faster than I ever could have imagined. He asked questions on the front end to make sure the delivery was done right. The order was perfect on the first delivery!",
-    avatar: memojiAvatar4,
+    text: "This was such a seamless experience. He understood what I was wanting and did it faster than I ever could have imagined. He asked questions on the front end to make sure the delivery was done right. The order was perfect on the first delivery!",
+    avatar: memojiAvatar3,
   },
   
 ];

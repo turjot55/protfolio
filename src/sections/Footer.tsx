@@ -31,7 +31,7 @@ export const Footer = () => {
           <div className="text-white/40 text-center text-wrap">
             &copy;{date.getFullYear()} | All Rights Reserved | Turjo Talukder
           </div>
-          <nav className="flex flex-col md:flex-row items-center gap-8">
+          <nav className="flex flex-col md:flex-row items-center gap-8 sm:flex-row">
             {footerLink.map((footer) => {
               return (
                 <a
